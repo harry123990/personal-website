@@ -1,0 +1,113 @@
+/* General Styles */
+body {
+    font-family: 'Arial, sans-serif';
+    background-color: #f8f9fa;
+    color: #343a40;
+    margin-top: 56px; /* Offset for fixed navbar */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Helvetica, sans-serif';
+    color: #2c3e50;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-brand, .nav-link {
+    color: #6c6a6a !important;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.navbar-brand:hover, .nav-link:hover {
+    color: #000000 !important;
+    background-color: #6b6b6b85; 
+    border-radius: 5px;
+}
+
+/* Jumbotron Styles */
+.jumbotron {
+    background: #ffffff;
+    color: #343a40;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.jumbotron .btn {
+    background-color: #343a40;
+    color: #ffffff;
+    border: none;
+}
+
+.jumbotron .btn:hover {
+    background-color: #495057;
+}
+
+/* Section Styles */
+section {
+    background-color: #ffffff;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Styles */
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 1rem 0;
+}
+
+footer h5 {
+    margin-bottom: 1rem;
+}
+
+footer .btn {
+    margin: 0.5rem;
+    border: 1px solid #ffffff;
+}
+
+footer .btn:hover {
+    background-color: #ffffff;
+    color: #343a40;
+}
+
+/* Link Styles */
+a {
+    color: #343a40;
+}
+
+a:hover {
+    color: #495057;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    .navbar-collapse {
+        background-color: #333; /* Dark background for collapsed navbar */
+        padding: 0; /* Adjust padding for smaller screens */
+    }
+    .jumbotron {
+        padding: 1rem;
+    }
+
+    section {
+        padding: 1rem;
+    }
+}
+
+/* Responsive font sizes */
+h1, h2, h3, h4, h5, h6, p {
+    font-size: 1.2em; /* Example font size */
+}
+
+/* Make images responsive */
+img {
+    max-width: 100%;
+    height: auto;
+}
